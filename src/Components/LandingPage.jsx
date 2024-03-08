@@ -9,7 +9,7 @@ const LandingPage = () => {
     <div className="masker" key={i}>
       <div className='w-fit flex items-end overflow-hidden'>
         {i === 1 && (
-          <div className='mr-[1vw] w-[8vw] h-[6vw] rounded-md relative bg-green-500 -top-[0.5vw]' ></div>
+          <div className='mr-[1vw] w-[8vw] h-[6vw] rounded-md relative bg-red-500 -top-[0.5vw]' ></div>
         )}
         <h1 className="uppercase text-[8vw] leading-[7vw] tracking-tighter font-['Founders Grotesk X-Condensed'] font-bold">{item}</h1>
       </div>
@@ -17,7 +17,7 @@ const LandingPage = () => {
   ))}
 </div>
 
-        <div className='border-t-[1px] border-zinc-700 mt-32 flex justify-between items-center py-5 px-20'>
+        <div className='border-t-[1px] border-zinc-700 mt-20 flex justify-between items-center py-5 px-20'>
          {["For Public and private companies","From the first pitch to IPO"].map((element,i)=>(
             <p className='text-md font-light tracking-tight leading-none' key={i}>{element}</p>
          ))}
