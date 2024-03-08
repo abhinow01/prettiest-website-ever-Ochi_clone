@@ -9,7 +9,7 @@ const Eyes = () => {
         let deltaX = mouseX - window.innerWidth/2;
         let deltaY =mouseY - window.innerHeight/2;
          var angle = Math.atan2(deltaY,deltaX)*180/Math.PI;
-         setRotate(180-angle);
+         setRotate(angle-180);
        })
     },[]);
     
