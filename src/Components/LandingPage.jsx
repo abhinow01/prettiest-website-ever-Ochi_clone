@@ -1,15 +1,21 @@
 import React from 'react'    
 import { FaArrowUp } from "react-icons/fa6";
+import  { motion } from 'framer-motion'
 
 const LandingPage = () => {
+  
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
+    <div className='data-scroll data-scroll-section data-scroll-speed="-.3" w-full h-screen bg-zinc-900 pt-1'>
        <div className='textstructure mt-52 px-20'>
   {["We Create", "Eye Opening", "Presentations"].map((item, i) => (
     <div className="masker" key={i}>
       <div className='w-fit flex items-end overflow-hidden'>
         {i === 1 && (
-          <div className='mr-[1vw] w-[8vw] h-[6vw] rounded-md relative bg-red-500 -top-[0.5vw]' ></div>
+          <motion.div 
+          initial={{width:0}}
+          animate={{width: "9vw"}}
+          transition={{ease: [0.76,0,0.24,1],duration:1}}
+          className='mr-[1vw] w-[8vw] h-[6vw] rounded-md relative bg-red-500 -top-[0.5vw]' ></motion.div>
         )}
         <h1 className="uppercase text-[8vw] leading-[7vw] tracking-tighter font-Founders_Grotesk_X-Condensed font-bold">{item}</h1>
       </div>

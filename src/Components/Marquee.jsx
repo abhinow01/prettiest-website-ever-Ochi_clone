@@ -11,7 +11,7 @@ const Marquee = () => {
           transition={{ ease: "linear", repeat: Infinity, duration: 5 }}
           className='marquee-item'
         >
-          <h1 className='text-[22vw] leading-none font-Founders_Grotesk_X-Condensed font-semibold uppercase pt-10 mb-4'>we are ochi</h1>
+          <h1 className='text-[22vw] leading-none font-Founders_Grotesk_X-Condensed font-semibold uppercase pt-10 pr-10 mb-4'>we are ochi</h1>
         </motion.div>
         <motion.div
           initial={{ x: 0 }}
@@ -19,7 +19,7 @@ const Marquee = () => {
           transition={{ ease: "linear", repeat: Infinity, duration: 5 }}
           className='marquee-item'
         >
-          <h1 className='text-[22vw] leading-none font-Founders_Grotesk_X-Condensed font-semibold uppercase pt-10 mb-4'>we are ochi</h1>
+          <h1 className='text-[22vw] leading-none font-Founders_Grotesk_X-Condensed font-semibold uppercase pt-10 pr-10 mb-4'>we are ochi</h1>
         </motion.div>
         <motion.div
           initial={{ x: 0 }}
@@ -27,7 +27,7 @@ const Marquee = () => {
           transition={{ ease: "linear", repeat: Infinity, duration: 5 }}
           className='marquee-item'
         >
-          <h1 className='text-[22vw] leading-none font-Founders_Grotesk_X-Condensed font-semibold uppercase pt-10 mb-4'>we are ochi</h1>
+          <h1 className='text-[22vw] leading-none font-Founders_Grotesk_X-Condensed font-semibold uppercase pt-10 pr-10 mb-4'>we are ochi</h1>
         </motion.div>
       </div>
     </div>
