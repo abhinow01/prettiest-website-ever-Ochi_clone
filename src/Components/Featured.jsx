@@ -4,7 +4,7 @@ const Featured = () => {
     const cards = [useAnimation(),useAnimation()];
 
     const handleHover = (index) =>{
-   cards[index].start({y:"0"})
+   cards[index].start({y: "0"})
     }
 
   return (
